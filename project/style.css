@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100;0,200;0,300;1,300;1,400;1,600&family=The+Nautigal&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: pink;
+    background: cover;
+    height: 70px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    position:relative
+}
+
+
+footer{
+  background: #f1f1f1f1;
+  background-image: url(apple.jpg);
+  padding: 90px 0;
+  display: flex;
+
+}
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo{
+  width: 150px;
+}
+
+.social-media{
+  margin: 10px 0;
+}
+
+.social-media a{
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #fc5c65;
+}
+
+.right-col h1{
+  font-size: 26px;
+}
+
